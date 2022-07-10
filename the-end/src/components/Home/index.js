@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -14,6 +15,9 @@ function Home() {
                 </h3>
                 <br></br>
                 <button>Start</button>
+                <>
+                <Link className="" to="/FirstQuestion">Start</Link>
+                </>
             </div>
         </body>
     );
