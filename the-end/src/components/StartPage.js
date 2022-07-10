@@ -5,7 +5,7 @@ export default function StartPage() {
     const [currentPage, setCurrentPage] = useState('Home');
 
     const renderPage = () => {
-        return <Home />;
+        return;
         }
 
         const handlePageChange = (page) => setCurrentPage(page);
