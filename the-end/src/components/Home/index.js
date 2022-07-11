@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function Home() {
     return (
@@ -14,9 +15,9 @@ function Home() {
                     Press Start to begin.
                 </h3>
                 <br></br>
-                <button>Start</button>
+                <button id="start">Start</button>
                 <>
-                <Link className="" to="/FirstQuestion">Start</Link>
+                <Link className="button" to={`/FirstQuestion/`}>Start</Link>
                 </>
             </div>
         </body>

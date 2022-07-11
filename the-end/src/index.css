@@ -98,18 +98,16 @@ header a {
   color: var(--light);
 }
 
-button {
-  display: flex;
-  text-align: center;
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: auto;
-  background-color: var(--secondary);
+.button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
 }
 
 button:hover {
