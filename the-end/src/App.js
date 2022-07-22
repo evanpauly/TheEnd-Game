@@ -6,6 +6,9 @@ import Header from './components/Header';
 import FirstQuestion from './components/FirstQuestion';
 import StayHome from './components/StayHome';
 import HitTheRoad from './components/HitTheRoad';
+import Walk from './components/Walk'
+import Drive from './components/Drive';
+
 
 function App() {
     return (
@@ -18,6 +21,8 @@ function App() {
                 <Route path='/FirstQuestion' element={<FirstQuestion />} />
                 <Route path='/StayHome' element={<StayHome />} />
                 <Route path='/HitTheRoad' element={<HitTheRoad />} />
+                <Route path='/Walk' element={<Walk />} />
+                <Route path='/Drive' element={<Drive />} />
               </Routes>
             </div>
             </div>
